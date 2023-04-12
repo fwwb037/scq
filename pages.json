@@ -1,0 +1,368 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		
+		{
+		    "path" : "pages/Login/Login",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+		    }
+		    
+		}
+		,
+		
+		{
+		    "path" : "pages/index/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+		    }
+		    
+		}
+		,
+	    {
+	        "path" : "pages/youngster/Pindex/Pindex",
+	        "style" :                                                                                    
+	        {
+	            "navigationBarTitleText": "",
+	            "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+	        }
+	        
+	    }
+	    
+	    ,{
+            "path" : "pages/404/404",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "未找到",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+		    "path" : "pages/youngster/Add/Add",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "add",
+		        "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+		    }
+		},{
+		    "path" : "pages/youngster/Analysis/Analysis",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "analysis",
+		        "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+		    }
+		},{
+		    "path" : "pages/youngster/Manage/Manage",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "manage",
+		        "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+		    }
+		},{
+		    "path" : "pages/youngster/Me/Me",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "me",
+		        "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+		    }
+		}
+        ,{
+            "path" : "subpages/Analysis/ExpenseList/ExpenseList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "subpages/Analysis/RationalityAnalysis/RationalityAnalysis",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        }
+		,{
+		    "path" : "subpages/Analysis/BillingReport/BillingReport",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		}
+		,{
+		    "path" : "subpages/Analysis/BillingHealth/BillingHealth",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		}
+        ,{
+            "path" : "subpages/Management/ConsumeType/ConsumeType",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "subpages/Management/OutcomeRecord/OutcomeRecord",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "subpages/Management/ConsumeRoutine/ConsumeRoutine",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "subpages/Management/IncomeRecord/IncomeRecord",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+       
+        ,{
+            "path" : "pages/Register/Register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/Forget/Forget",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/Login/LoginByCode",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Register/RegisterDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "subpages/Management/LoanRecord/LoanRecord",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "subpages/Management/GoingDutch/GoingDutch",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "subpages/Family/FamilyIndex/FamilyIndex",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        },{
+            "path" : "subpages/Friend/FriendIndex/FriendIndex",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "subpages/FastAdd/AddByPhoto/AddByPhoto",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "subpages/Management/ConsumeScene/ConsumeScene",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "subpages/Management/IncomePlan/IncomePlan",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "subpages/Friend/Chatting/Chatting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "subpages/Friend/Chatting/Chatting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "subpages/Friend/GroupChatting/GroupChatting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "subpages/FastAdd/AddByRecord/AddByRecord",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "subpages/FastAdd/AddBySound/AddBySound",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "subpages/FastAdd/AddByFile/AddByFile",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "subpages/FastAdd/AddByImage/AddByImage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "subpages/Management/FastTypeManage/FastTypeManage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "subpages/FastAdd/AddConfirm/AddConfirm",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "subpages/FastAdd/AddBatch/AddBatch",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		
+			"list": [
+				{
+					"pagePath":"pages/youngster/Pindex/Pindex"
+				},{
+					"pagePath":"pages/youngster/Add/Add"
+				},{
+					"pagePath":"pages/youngster/Analysis/Analysis"
+				},{
+					"pagePath":"pages/youngster/Manage/Manage"
+				},{
+					"pagePath":"pages/youngster/Me/Me"
+				}
+			]
+			
+		},
+	"uniIdRouter": {}
+}
